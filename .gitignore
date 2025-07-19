@@ -1,0 +1,60 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+*.log
+
+# =====================================
+# Jupyter Notebooks
+# =====================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =====================================
+# Spark e Delta Lake
+# =====================================
+# Pastas de dados
+LND/
+RAW/
+TRS/
+CONSOLIDADO/
+
+# Delta Lake metadata
+*/_delta_log/
+*/.delta/
+
+# Spark checkpointing (caso use streaming)
+checkpoints/
+spark-warehouse/
+
+# Logs e temporários do Spark
+*.crc
+*.tmp
+*.bak
+*.log
+
+# =====================================
+# Sistemas Operacionais
+# =====================================
+.DS_Store
+Thumbs.db
+
+# =====================================
+# VSCode e IDEs
+# =====================================
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================================
+# Arquivos CSV ou JSON grandes
+*.csv
+*.json
