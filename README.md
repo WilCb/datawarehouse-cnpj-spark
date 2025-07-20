@@ -80,9 +80,9 @@ A tabela fato é composta pelos dados das empresas (CNPJ), e relaciona-se com as
 
 ```bash
 .
-├── landing/         # Dados brutos (JSON ou CSV)
-├── raw/             # Dados estruturados (Delta)
-├── trusted/         # Dados tratados e confiáveis (Delta)
+├── LND/         # Dados brutos (JSON ou CSV)
+├── RAW/             # Dados estruturados (Delta)
+├── TRS/         # Dados tratados e confiáveis (Delta)
 ├── notebooks/
 │   ├── 01_coleta_dados.ipynb
 │   ├── 02_preparacao_raw.ipynb
@@ -101,6 +101,8 @@ Antes de rodar os notebooks:
 2. Configure seu ambiente Python com os pacotes listados em requirements.txt.
 
 3. Utilize um terminal Linux (via WSL, se estiver no Windows) para evitar conflitos de dependência.
+
+4. É necessário realizar o download manual dos arquivos CSV através do site do governo (link disponível no notebook `01_coleta_de_dados`.ipynb). Após o download, os arquivos devem ser salvos conforme a estrutura da camada RAW, criando as pastas necessárias conforme demonstrado.
 
 ## 👨‍💻 Autor
 
