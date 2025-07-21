@@ -23,9 +23,9 @@ A pipeline foi construída com base em 4 camadas principais de dados:
   - Leitura e escrita com Delta Lake
   - Transformações, joins e tratamento de dados
 - Delta Lake
-  - Versionamento, `time travel` e `merge`
+  - Versionamento e `time travel`
 - Consumo de Dados Públicos
-  - APIs REST com paginação
+  - API
   - Arquivos CSV do site da Receita Federal
 
 ---
