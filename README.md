@@ -106,7 +106,7 @@ Antes de rodar os notebooks:
 
 ## 👨‍💻 Autor
 
-Este projeto foi desenvolvido por **Williams Araujo (WilCb)** como parte do **treinamento prático da Residência em TIC do SENAI/AL**, com foco em **Engenharia de Dados**.
+Este projeto foi desenvolvido por **Williams Araujo (WilCb)** como parte do **treinamento prático da Residência em TIC da UFAL/EASY em parceria com o SENAI/AL**, com foco em **Engenharia de Dados**.
 
 O objetivo desta atividade é **nivelar o conhecimento técnico dos residentes**, preparando-os para o desenvolvimento do **projeto real** que será realizado nas etapas seguintes da residência.
 
